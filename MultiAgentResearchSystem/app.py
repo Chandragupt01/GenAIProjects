@@ -44,7 +44,7 @@ html, body, [class*="css"] {
     font-weight: 500;
     letter-spacing: 0.25em;
     text-transform: uppercase;
-    color: #1F51FF;
+    color: #ff8c32;
     margin-bottom: 1rem;
     opacity: 0.9;
 }
@@ -58,7 +58,7 @@ html, body, [class*="css"] {
     margin: 0 0 1rem;
 }
 .hero h1 span {
-    color: #1F51FF;
+    color: #ff8c32;
 }
 .hero-sub {
     font-size: 1.05rem;
@@ -98,7 +98,7 @@ html, body, [class*="css"] {
     transition: border-color 0.2s, box-shadow 0.2s !important;
 }
 .stTextInput > div > div > input:focus {
-    border-color: #1F51FF !important;
+    border-color: #ff8c32 !important;
     box-shadow: 0 0 0 3px rgba(255,140,50,0.12) !important;
 }
 .stTextInput > label {
@@ -106,13 +106,13 @@ html, body, [class*="css"] {
     font-size: 0.72rem !important;
     letter-spacing: 0.15em !important;
     text-transform: uppercase !important;
-    color: #1F51FF !important;
+    color: #ff8c32 !important;
     font-weight: 500 !important;
 }
 
 /* ── Button ── */
 .stButton > button {
-    background: linear-gradient(135deg, #1F51FF 0%, #0d47a1 100%) !important;
+    background: linear-gradient(135deg, #ff8c32 0%, #ff5a1a 100%) !important;
     color: #0a0a0f !important;
     font-family: 'Syne', sans-serif !important;
     font-weight: 700 !important;
@@ -163,7 +163,7 @@ html, body, [class*="css"] {
     background: rgba(255,255,255,0.05);
     transition: background 0.3s;
 }
-.step-card.active::before { background: #1F51FF; }
+.step-card.active::before { background: #ff8c32; }
 .step-card.done::before   { background: #50c878; }
 
 .step-header {
@@ -177,7 +177,7 @@ html, body, [class*="css"] {
     font-size: 0.68rem;
     font-weight: 500;
     letter-spacing: 0.15em;
-    color: #1F51FF;
+    color: #ff8c32;
     opacity: 0.7;
 }
 .step-title {
@@ -193,7 +193,7 @@ html, body, [class*="css"] {
     letter-spacing: 0.1em;
 }
 .status-waiting  { color: #555; }
-.status-running  { color: #1F51FF; }
+.status-running  { color: #ff8c32; }
 .status-done     { color: #50c878; }
 
 /* ── Result panels ── */
@@ -211,7 +211,7 @@ html, body, [class*="css"] {
     font-weight: 500;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    color: #1F51FF;
+    color: #ff8c32;
     margin-bottom: 1rem;
     padding-bottom: 0.7rem;
     border-bottom: 1px solid rgba(255,140,50,0.15);
@@ -248,7 +248,7 @@ html, body, [class*="css"] {
     padding-bottom: 0.7rem;
 }
 .panel-label.orange {
-    color: #1F51FF;
+    color: #ff8c32;
     border-bottom: 1px solid rgba(255,140,50,0.15);
 }
 .panel-label.green {
@@ -257,7 +257,7 @@ html, body, [class*="css"] {
 }
 
 /* ── Progress text ── */
-.stSpinner > div { color: #1F51FF !important; }
+.stSpinner > div { color: #ff8c32 !important; }
 
 /* ── Expander ── */
 details summary {
